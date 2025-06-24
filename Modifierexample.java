@@ -7,6 +7,7 @@ abstract class Person{
 class Student extends Person{
     public int graduationyear = 2025;
    
+    @Override
     public void study(){
         System.out.println("Studying all day");
     }
